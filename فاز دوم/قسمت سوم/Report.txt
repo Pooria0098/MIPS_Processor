@@ -1,0 +1,89 @@
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+Unit <MIPS_TopModule> synthesized.
+Unit <PC_Register> synthesized.
+Unit <Incrementer> synthesized.
+Unit <Instruction_Memory> synthesized.
+Unit <Control> synthesized.
+Unit <MUX_2to1_1> synthesized.
+Unit <Register_File> synthesized.
+Unit <Sign_Extend> synthesized.
+Unit <MUX_2to1_2> synthesized.
+Unit <ALU_control> synthesized.
+Unit <ALU_32> synthesized.
+Unit <Data_Memory> synthesized.
+Unit <Add> synthesized.
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 128x32-bit dual-port block RAM                        : 1
+ 32x32-bit dual-port block RAM                         : 2
+ 32x32-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 4
+ 32-bit adder                                          : 3
+ 32-bit subtractor                                     : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 161
+ Flip-Flops                                            : 161
+# Comparators                                          : 2
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 61
+ 1-bit 2-to-1 multiplexer                              : 57
+ 32-bit 2-to-1 multiplexer                             : 3
+ 5-bit 2-to-1 multiplexer                              : 1
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 119
+ Flip-Flops                                            : 119
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 757
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 61
+#      LUT2                        : 37
+#      LUT3                        : 100
+#      LUT4                        : 116
+#      LUT5                        : 65
+#      LUT6                        : 81
+#      MUXCY                       : 156
+#      VCC                         : 1
+#      XORCY                       : 135
+# FlipFlops/Latches                : 139
+#      FD                          : 72
+#      FDE                         : 46
+#      FDR                         : 1
+#      LD                          : 16
+#      LDCE                        : 2
+#      LDPE                        : 2
+# RAMS                             : 3
+#      RAMB8BWER                   : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 404
+#      OBUF                        : 404
+=========================================================================
+Timing Report
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 7.108ns (Maximum Frequency: 140.685MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.390ns
+   Maximum combinational path delay: No path found
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.12 secs
+Total memory usage is 4510588 kilobytes
